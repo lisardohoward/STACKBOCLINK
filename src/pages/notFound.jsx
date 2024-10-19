@@ -9,7 +9,7 @@ function NotFound() {
   let[IsUserHiden, SetUserHiden] = useState(false);
   let[IframeUrl, SetIframeUrl] = useState('https://stackclient-beryl.vercel.app/');
   let[SiteTitleMeta, SetSiteTitleMeta] = useState('Market Place');
-  let[SiteTitleHome, SetSiteTitleHome] = useState('Clean Juice | Landing Page');
+  let[SiteTitleHome, SetSiteTitleHome] = useState('Sales Inquery || [Your Domain]');
 
 
   function showIframe(file,title,favicon) {
