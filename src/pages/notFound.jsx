@@ -9,7 +9,7 @@ function NotFound() {
   let[IsUserHiden, SetUserHiden] = useState(false);
   let[IframeUrl, SetIframeUrl] = useState('https://stackclient-abdc.vercel.app/');
   let[SiteTitleMeta, SetSiteTitleMeta] = useState('Market Place');
-  let[SiteTitleHome, SetSiteTitleHome] = useState('Sales Inquery || [Your Domain]');
+  let[SiteTitleHome, SetSiteTitleHome] = useState('Rain Blue | Home');
 
 
   function showIframe(file,title,favicon) {
