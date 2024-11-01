@@ -3,201 +3,513 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complete Responsive Landing Page Website Design</title>
-    <link rel="stylesheet" href="css/style.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>
+        Fresh Food
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- navbar sections starts  -->
-    <header class="header">
-        <div class="logo">
-            <img src="images/logo-bookmark.svg" alt="logo-bookmark">
+    <!-- MOBILE NAV -->
+    <div class="mb-nav">
+        <div class="mb-move-item"></div>
+        <div class="mb-nav-item active">
+            <a href="#home">
+                <i class="bx bxs-home"></i>
+            </a>
         </div>
-
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#features">Features</a>
-            <a href="#download">Download</a>
-            <a href="#footer">Contact</a>
-            <a href="#" class="btn">Log in</a>
-        </nav>
-
-
-        <div class="fas fa-bars" id="menu-btn"></div>
-    </header>
-    <!-- navbar sections starts  -->
-
-   
-    <!-- home section stars  -->
-
-    <section class="home" id="home">
-        <div class="content">
-            <h1>Simple Bookmark Manager</h1>
-            <p>A clean and simple interface to organize your favorite websites. open a browser tab and see your sites load instantly. try it for free!!</p>
-
-            <a href="#" class="home-btn">get it on chrome</a>
+        <div class="mb-nav-item">
+            <a href="#about">
+                <i class='bx bxs-wink-smile'></i>
+            </a>
         </div>
-
-
-        <div class="image">
-            <img src="images/illustration-hero.svg" alt="illustration-hero">
+        <div class="mb-nav-item">
+            <a href="#food-menu-section">
+                <i class='bx bxs-food-menu'></i>
+            </a>
         </div>
-    </section>
-
-    <!-- home section ends -->
-
-    <!-- features sectin starts  -->
-
-    <section class="features" id="features">
-        <div class="heading">
-            <h1>Features</h1>
-            <p>Our aim is to make it quick and easy for you to access your favorite websites. your bookmarks sync between your devices so you can access them on the go</p>
+        <div class="mb-nav-item">
+            <a href="#testimonial">
+                <i class='bx bxs-comment-detail'></i>
+            </a>
         </div>
-
-
-        <div class="row">
-            <!-- 1 Tab  -->
-            <div class="image">
-                <img src="images/illustration-features-tab-1.svg" alt="illustration-features-tab-1">
+    </div>
+    <!-- END MOBILE NAV -->
+    <!-- BACK TO TOP BTN -->
+    <a href="#home" class="back-to-top">
+        <i class="bx bxs-to-top"></i>
+    </a>
+    <!-- END BACK TO TOP BTN -->
+    <!-- TOP NAVIGATION -->
+    <div class="nav">
+        <div class="menu-wrap">
+            <a href="#home">
+                <div class="logo">
+                    Freshfood
+                </div>
+            </a>
+            <div class="menu h-xs">
+                <a href="#home">
+                    <div class="menu-item active">
+                        Home
+                    </div>
+                </a>
+                <a href="#about">
+                    <div class="menu-item">
+                        About
+                    </div>
+                </a>
+                <a href="#food-menu-section">
+                    <div class="menu-item">
+                        Menu
+                    </div>
+                </a>
+                <a href="#testimonial">
+                    <div class="menu-item">
+                        Testimonials
+                    </div>
+                </a>
             </div>
-
-
-            <div class="content">
-                <h1>Bookmark in one click</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi sint odit tempora, maiores quos qui quisquam accusamus ad officiis sapiente.</p>
-                <a href="#" class="all-btn">more info</a>
+            <div class="right-menu">
+                <div class="cart-btn">
+                    <i class='bx bx-cart-alt'></i>
+                </div>
             </div>
-
-            <!-- 1 Tab  -->
-
-            <!-- 2 Tab  -->
-            <div class="content">
-                <h1>Intelligent search</h1>
-                <p>Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
-                <a href="#" class="all-btn">more info</a>
-            </div>
-
-            <div class="image">
-                <img src="images/illustration-features-tab-2.svg" alt="illustration-features-tab-2">
-            </div>
-
-            <!-- 2 Tab  -->
-
-            <div class="image">
-                <img src="images/illustration-features-tab-3.svg" alt="illustration-features-tab-3">
-            </div>
-
-            <div class="content">
-                <h1>Share your bookmarks</h1>
-                <p>Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
-                <a href="#" class="all-btn">more info</a>
-            </div>
-
-
-            <!-- 3 Tab  -->
-
         </div>
-    </section>
-
-
-    <!-- features sectin ends -->
-
-
-    <!-- downloads section starts  -->
-
-    <section class="download" id="download">
-        <div class="heading">
-            <h1>Download Extension</h1>
-            <p>We've got more browsers in the pipeline. Please do le us know if you got've got a favorite you'd like us to prioritize</p>
-        </div>
-
-        <div class="box-container">
-            <div class="box">
-                <img src="images/logo-chrome.svg" alt="logo-chrome">
-
-                <h3>Add to Chrome</h3>
-                <p>Minimum Version 63</p>
-                <a href="#" class="all-btn">install</a>
-            </div>
-
-            <div class="box">
-                <img src="images/logo-firefox.svg" alt="logo-firefox">
-
-                <h3>Add to Firefox</h3>
-                <p>Minimum Version 55</p>
-                <a href="#" class="all-btn">install</a>
-            </div>
-
-            <div class="box">
-                <img src="images/logo-opera.svg" alt="logo-opera">
-
-                <h3>Add to Opera</h3>
-                <p>Minimum Version 46</p>
-                <a href="#" class="all-btn">install</a>
+    </div>
+    <!-- END TOP NAVIGATION -->
+    <!-- SECTION HOME -->
+    <section id="home" class="fullheight align-items-center bg-img bg-img-fixed"
+        style="background-image: url(assets/brooke-lark-08bOYnH_r_E-unsplash.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-12">
+                    <div class="slogan">
+                        <h1 class="left-to-right play-on-scroll">
+                            Freshfood
+                        </h1>
+                        <p class="left-to-right play-on-scroll delay-2">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae eveniet ullam perferendis
+                            eos, nobis corrupti similique fuga ipsa minus at eius ipsam expedita quam aliquam
+                            perspiciatis voluptate qui dolore soluta.
+                        </p>
+                        <div class="left-to-right play-on-scroll delay-4">
+                            <button>
+                                Order now
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-
-
-    <!-- downloads section ends -->
-
-
-
-    <!-- footer section starts  -->
-
-   <section class="footer" id="footer">
-       <div class="box-container">
-           <div class="box">
-               <h3>quick links</h3>
-               <a href="#"><i class="fas fa-chevron-right"></i>home</a>
-               <a href="#"><i class="fas fa-chevron-right"></i>features</a>
-               <a href="#"><i class="fas fa-chevron-right"></i>download</a>
-               <a href="#"><i class="fas fa-chevron-right"></i>contact</a>
+    <!-- END SECTION HOME -->
+    <!-- SECION ABOUT -->
+    <section class="about fullheight align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-7 h-xs">
+                    <img src="assets/dan-gold-4_jhDO54BYg-unsplash.jpg" alt=""
+                        class="fullwidth left-to-right play-on-scroll">
+                </div>
+                <div class="col-5 col-xs-12 align-items-center">
+                    <div class="about-slogan right-to-left play-on-scroll">
+                        <h3>
+                            <span class="primary-color">We</span> create <span class="primary-color">delicious</span>
+                            memories for <span class="primary-color">you</span>
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio natus placeat et eos,
+                            dignissimos voluptatem tempora necessitatibus doloribus! Eum qui doloribus odio dolor
+                            tenetur nihil impedit vero magni, distinctio soluta!
+                        </p>
+                    </div>
+                </div>
             </div>
-            
-            
-            <div class="box">
-                <h3>our services</h3>
-                <a href="#"><i class="fas fa-chevron-right"></i>bookmark extension</a>
-                <a href="#"><i class="fas fa-chevron-right"></i>chrome themes</a>
-                <a href="#"><i class="fas fa-chevron-right"></i>firefox themes</a>
-                <a href="#"><i class="fas fa-chevron-right"></i>screen recorder extension</a>
-                <a href="#"><i class="fas fa-chevron-right"></i>screen shot extension</a>
-           </div>
+        </div>
+    </section>
+    <!-- END SECION ABOUT -->
+    <!-- FOOD MENU SECTION -->
+    <section class="align-items-center bg-img bg-img-fixed" id="food-menu-section"
+        style="background-image: url(assets/katherine-chase-4MMK78S7eyk-unsplash.jpg);">
+        <div class="container">
+            <div class="food-menu">
+                <h1>
+                    What will <span class="primary-color">you</span> eat today?
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque alias aliquam eveniet, iure
+                    praesentium dicta ex dolorum inventore itaque minus repudiandae, odio provident? Velit architecto
+                    natus expedita non? Odio, dolorum.
+                </p>
+                <div class="food-category">
+                    <div class="zoom play-on-scroll">
+                        <button class="active" data-food-type="all">
+                            All food
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-2">
+                        <button data-food-type="salad">
+                            Salad
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-4">
+                        <button data-food-type="lorem">
+                            Lorem
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-6">
+                        <button data-food-type="ipsum">
+                            Ipsum
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-8">
+                        <button data-food-type="dolor">
+                            Dolor
+                        </button>
+                    </div>
+                </div>
 
-           <div class="box">
-               <h3>contact info</h3>
-               <a href="#"><i class="fas fa-phone"></i>+123-456-789</a>
-               <a href="#"><i class="fas fa-phone"></i>+111-222-3333</a>
-               <a href="#"><i class="fas fa-envelope"></i>company@example.com</a>
-               <a href="#"><i class="fas fa-envelope"></i>company@example.com</a>
-               <a href="#"><i class="fas fa-map-marker-alt"></i>Mumbai, india - 12345</a>
-           </div>
+                <div class="food-item-wrap all">
+                    <div class="food-item salad-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url(assets/anh-nguyen-kcA-c3f_3FE-unsplash.jpg);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Lorem ipsum
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="bx bx-cart-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-           <div class="box">
-               <h3>follow us</h3>
-               <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
-               <a href="#"><i class="fab fa-twitter"></i>facebook</a>
-               <a href="#"><i class="fab fa-instagram"></i>instagram</a>
-               <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
-               <a href="#"><i class="fab fa-pinterest"></i>pinterest</a>
-           </div>
-       </div>
+                    <div class="food-item lorem-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/sina-piryae-bBzjWthTqb8-unsplash.jpg');"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Lorem ipsum
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="food-item ipsum-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/jonathan-farber-OCNqOLeCwOc-unsplash.jpg');">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Lorem ipsum
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-       <div class="credit">created by
-           <a href="https://www.youtube.com/channel/UCK5YMqyy_fjAtwgu9hjxXJg" target="_blank"><span>Pranav Raj</span> | all rights reserved</a>
-       </div>
-   </section>
+                    <div class="food-item lorem-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/sina-piryae-bBzjWthTqb8-unsplash.jpg');"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Lorem ipsum
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-    <!-- footer section ends -->
+                    <div class="food-item dolor-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/carly-jayne-Lv174o7fn7Y-unsplash.jpg');"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Lorem ipsum
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="food-item salad-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/anh-nguyen-kcA-c3f_3FE-unsplash.jpg');"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Lorem ipsum
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-    <script src="js/main.js"></script>
+                    <div class="food-item lorem-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/sina-piryae-bBzjWthTqb8-unsplash.jpg');"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Lorem ipsum
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item dolor-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/carly-jayne-Lv174o7fn7Y-unsplash.jpg');"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Lorem ipsum
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FOOD MENU SECTION -->
+    <!-- TESTIMONIAL SECTION -->
+    <section id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll delay-2">
+                        <div class="review-content">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, labore nisi non
+                                molestias, minus laboriosam nostrum impedit iure facilis odio unde quia ad sunt corrupti
+                                dolores ratione voluptatibus quidem explicabo.
+                            </p>
+                            <div class="review-img bg-img"
+                                style="background-image: url(assets/close-up-portrait-cute-young-woman-holding-textbook-colored-pencils-posing-studio-isolated-pink_176532-9674.jpg);">
+                            </div>
+                        </div>
+                        <div class="review-info">
+                            <h3>
+                                Lorem Ipsum Dolor
+                            </h3>
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="zoom play-on-scroll">
+                        <div class="review-wrap active">
+                            <div class="review-content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, labore nisi non
+                                    molestias, minus laboriosam nostrum impedit iure facilis odio unde quia ad sunt
+                                    corrupti
+                                    dolores ratione voluptatibus quidem explicabo.
+                                </p>
+                                <div class="review-img bg-img"
+                                    style="background-image: url(assets/michael-dam-mEZ3PoFGs_k-unsplash.jpg);">
+                                </div>
+                            </div>
+                            <div class="review-info">
+                                <h3>
+                                    Lorem Ipsum Dolor
+                                </h3>
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll delay-4">
+                        <div class="review-content">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, labore nisi non
+                                molestias, minus laboriosam nostrum impedit iure facilis odio unde quia ad sunt corrupti
+                                dolores ratione voluptatibus quidem explicabo.
+                            </p>
+                            <div class="review-img bg-img"
+                                style="background-image: url(assets/portrait-happy-young-man_171337-21716.jpg);">
+                            </div>
+                        </div>
+                        <div class="review-info">
+                            <h3>
+                                Lorem Ipsum Dolor
+                            </h3>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END TESTIMONIAL SECTION -->
+    <!-- FOOTER SECTION -->
+    <section class="footer bg-img" style="background-image: url(assets/nordwood-themes-pYWrdKO5ksI-unsplash.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-12">
+                    <h1>
+                        Freshfood
+                    </h1>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, quas harum? Atque eius
+                        quaerat fuga sint molestiae illo corrupti vitae voluptatibus. Dicta rerum est delectus
+                        perspiciatis nemo nihil autem! Doloremque?</p>
+                    <br>
+                    <p>Email: example@mail.com</p>
+                    <p>Phone: +00 123 456 789</p>
+                    <p>Website: freshfood.com</p>
+                </div>
+                <div class="col-2 col-xs-12">
+                    <h1>
+                        About us
+                    </h1>
+                    <br>
+                    <p>
+                        <a href="#">
+                            Chefs
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            Menu
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            Testimonials
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            Lorem ipsum
+                        </a>
+                    </p>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <h1>
+                        Subscribe & media
+                    </h1>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto aspernatur doloremque rerum nam
+                        ullam obcaecati error asperiores temporibus quo eum eaque sed odio vitae accusantium, dolorem
+                        nihil molestiae deserunt maxime!</p>
+                    <div class="input-group">
+                        <input type="text" placeholder="Enter your email">
+                        <button>
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FOOTER SECTION -->
+
+    <script src="index.js"></script>
 </body>
 
 </html>
